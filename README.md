@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [ Install ](#install) <br />
 2. [ Getting Started ](#gettingstarted) <br />
-3. [ Build Exec ](#compile) <br />
+3. [ Run Script ](#run) <br />
 
 <a name="install"></a>
 ### Install
@@ -20,7 +20,7 @@ Run:
 
 It will then prompt you to build a script that can execute during ssh.
 
-<a name="compile"></a>
+<a name="run"></a>
 ### Run Script
 Run (filename is optional):
     
