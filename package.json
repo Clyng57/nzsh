@@ -1,13 +1,14 @@
 {
   "name": "nzsh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build and run zsh scripts with nodejs. Run zsh scripts during ssh.",
   "main": "index.js",
   "keywords": [
     "nodejs",
     "zsh",
     "ssh",
-    "script generator"
+    "script generator",
+    "cli"
   ],
   "author": "Cal Young",
   "bin": {

@@ -1,5 +1,5 @@
-# fsmeta
-### Search, handle, parse exif data. A tool for searching image files for data, returning a list of files matching the provided keyword and options on how to handle matched files.
+# nzsh
+### Build and run zsh scripts with nodejs. Run zsh scripts during ssh.
 
 ## Table of Contents
 1. [ Install ](#install) <br />
@@ -10,18 +10,18 @@
 ### Install
 Run:
     
-    npm install -g fsmeta
+    npm install -g nzsh
 
 <a name="gettingstarted"></a>
 ### Getting Started
 Run:
     
-    fsmeta search
+    nzsh build
 
-It will then prompt you to type a directory and a keyword to search for. It will then start processing the image files and logging the matched images. Then, you will be prompted to open, rename, or save.
+It will then prompt you to build a script that can execute during ssh.
 
 <a name="compile"></a>
-### Build Exec
-Go to the fsmeta folder and run: 
+### Run Script
+Run (filename is optional):
     
-    npm run build
+    nzsh run [filename]
